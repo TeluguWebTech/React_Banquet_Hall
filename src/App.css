@@ -1,0 +1,52 @@
+.slider-container {
+  position: relative;
+  margin-top: 100px;
+}
+
+.slider-container .slider-item {
+  display: flex;
+  justify-content: center;
+  padding: 0 10px;
+}
+
+.slider-container .slider-item img {
+  width: 100%; /* Make the image take the full width of the container */
+  height: 400px;
+  object-fit: cover; /* Ensure images cover the area without distortion */
+  border-radius: 8px; /* Optional: Add rounded corners to the images */
+  border: 2px solid white;
+}
+.slick-container {
+  position: relative;
+  /* z-index: 9999; */
+  /* margin-top: -330px; */
+}
+
+.slick-container .slick-item {
+  display: flex;
+  justify-content: center;
+  padding: 0 10px; /* Add horizontal padding to create space between images */
+}
+
+.slick-container .slick-item img {
+  width: 100%; /* Make the image take the full width of the container */
+  height: 150px;
+  object-fit: cover; /* Ensure images cover the area without distortion */
+  border-radius: 8px; /* Optional: Add rounded corners to the images */
+  border: 2px solid white;
+}
+
+/* Add this CSS to hide the navigation buttons */
+.owl-dot {
+  display: none !important;
+}
+.slick-arrow,
+.slick-prev {
+  display: none !important;
+}
+.slick-dots {
+  display: none !important;
+}
+.navSection {
+  z-index: 999;
+}
