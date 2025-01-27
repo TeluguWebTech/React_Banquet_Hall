@@ -1,4 +1,6 @@
 import React from "react";
+import FeatureSection from "./FeatureSection";
+import SlickSection from "./SlickSection";
 
 const EventSection = () => {
   const handleSubmit = (e) => {
@@ -9,6 +11,7 @@ const EventSection = () => {
 
   return (
     <div>
+      <FeatureSection />
       <div className="contact-form section-padding30 fix">
         <div className="container">
           <div className="row justify-content-center">
@@ -131,6 +134,7 @@ const EventSection = () => {
               </div>
             </div>
           </div>
+          <SlickSection />
         </section>
 
         {/* Footer */}
@@ -138,11 +142,14 @@ const EventSection = () => {
           <div className="container">
             <div className="row">
               <div className="col-12">
-                <h4 className="text-white mb-4 me-5">Banquet Hall</h4>
+                <h4 className="text-white mb-4 me-5">Avika Grand</h4>
               </div>
 
               <div className="col-lg-4 col-md-7 col-xs-12 tooplate-mt30">
                 <h6 className="text-white mb-lg-4 mb-3">Location</h6>
+                <div className="barCode">
+                  <img src="/banner/images/barcode.jpg" alt="location" />
+                </div>
                 <p>Hyderabad</p>
                 <a
                   href="https://goo.gl/maps/wZVGLA7q64uC1s886"

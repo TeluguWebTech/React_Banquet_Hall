@@ -17,7 +17,9 @@ const NavBarSection = () => {
             >
               <span className="navbar-toggler-icon"></span>
             </button>
-
+            <div className="logo">
+              <img src="/banner/images/logo.jpg" alt="" />
+            </div>
             <div
               className="navbar-brand"
               href="index.html"
@@ -27,7 +29,7 @@ const NavBarSection = () => {
                 alignItems: "center",
               }}
             >
-              Banquet Hall
+              Avika Grand
             </div>
 
             <div className="d-lg-none">
@@ -44,31 +46,51 @@ const NavBarSection = () => {
             <div className="collapse navbar-collapse" id="navbarNav">
               <ul className="navbar-nav mx-auto">
                 <li className="nav-item">
-                  <a className="nav-link active" href="index.html">
+                  <a
+                    className="nav-link active"
+                    href="index.html"
+                    style={{ color: "#BD8F24" }}
+                  >
                     Home
                   </a>
                 </li>
 
                 <li className="nav-item">
-                  <a className="nav-link" href="about.html">
+                  <a
+                    className="nav-link"
+                    href="about.html"
+                    style={{ color: "#BD8F24" }}
+                  >
                     About
                   </a>
                 </li>
 
                 <li className="nav-item">
-                  <a className="nav-link" href="menu.html">
+                  <a
+                    className="nav-link"
+                    href="menu.html"
+                    style={{ color: "#BD8F24" }}
+                  >
                     Events
                   </a>
                 </li>
 
                 <li className="nav-item">
-                  <a className="nav-link" href="news.html">
+                  <a
+                    className="nav-link"
+                    href="news.html"
+                    style={{ color: "#BD8F24" }}
+                  >
                     Our Updates
                   </a>
                 </li>
 
                 <li className="nav-item">
-                  <a className="nav-link" href="contact.html">
+                  <a
+                    className="nav-link"
+                    href="contact.html"
+                    style={{ color: "#BD8F24" }}
+                  >
                     Contact
                   </a>
                 </li>

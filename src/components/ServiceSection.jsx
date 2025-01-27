@@ -10,7 +10,9 @@ const ServiceSection = () => {
             data-wow-delay="0.1s"
             style={{ maxWidth: "500px" }}
           >
-            <h1 className="display-5 mb-5">Some Of Our Events</h1>
+            <h1 style={{ color: "#BD8F24" }} className="display-5 mb-5">
+              Some Of Our Events
+            </h1>
           </div>
           <div className="row wow fadeInUp" data-wow-delay="0.3s"></div>
           <div className="row g-4 portfolio-container">

@@ -1,6 +1,22 @@
+.logo {
+  width: 100px;
+  height: 100px;
+}
+.logo img {
+  width: 100%;
+}
+.barCode {
+  width: 100px;
+  height: 100px;
+}
+.barCode img {
+  width: 100%;
+}
+
 .slider-container {
   position: relative;
   margin-top: 100px;
+  height: 100vh;
 }
 
 .slider-container .slider-item {
@@ -10,10 +26,10 @@
 }
 
 .slider-container .slider-item img {
-  width: 100%; /* Make the image take the full width of the container */
-  height: 400px;
-  object-fit: cover; /* Ensure images cover the area without distortion */
-  border-radius: 8px; /* Optional: Add rounded corners to the images */
+  width: 100%;
+  height: 600px;
+  object-fit: cover;
+  border-radius: 8px;
   border: 2px solid white;
 }
 .slick-container {
@@ -25,14 +41,14 @@
 .slick-container .slick-item {
   display: flex;
   justify-content: center;
-  padding: 0 10px; /* Add horizontal padding to create space between images */
+  padding: 0 10px;
 }
 
 .slick-container .slick-item img {
-  width: 100%; /* Make the image take the full width of the container */
+  width: 100%;
   height: 150px;
-  object-fit: cover; /* Ensure images cover the area without distortion */
-  border-radius: 8px; /* Optional: Add rounded corners to the images */
+  object-fit: cover;
+  border-radius: 8px;
   border: 2px solid white;
 }
 

@@ -10,7 +10,7 @@ const AboutSection = () => {
           <div className="row g-5 align-items-center">
             {/* Left Section */}
             <div className="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
-              <h1 className="mb-4">
+              <h1 className="mb-4" style={{ color: "#BD8F24" }}>
                 Learn More About Our Work And Our Cultural Activities
               </h1>
               <p>
