@@ -1,4 +1,5 @@
 import React from "react";
+import { Link as ScrollLink } from "react-scroll";
 
 const NavBarSection = () => {
   return (
@@ -18,11 +19,10 @@ const NavBarSection = () => {
               <span className="navbar-toggler-icon"></span>
             </button>
             <div className="logo">
-              <img src="/banner/images/logo.jpg" alt="" />
+              <img src="/banner/images/logo.jpg" alt="Logo" />
             </div>
             <div
               className="navbar-brand"
-              href="index.html"
               style={{
                 display: "flex",
                 justifyContent: "center",
@@ -46,66 +46,79 @@ const NavBarSection = () => {
             <div className="collapse navbar-collapse" id="navbarNav">
               <ul className="navbar-nav mx-auto">
                 <li className="nav-item">
-                  <a
-                    className="nav-link active"
-                    href="index.html"
-                    style={{ color: "#BD8F24" }}
+                  <ScrollLink
+                    className="nav-link"
+                    to="home"
+                    smooth={true}
+                    duration={500}
+                    style={{ color: "#BD8F24", cursor: "pointer" }}
                   >
                     Home
-                  </a>
+                  </ScrollLink>
                 </li>
-
                 <li className="nav-item">
-                  <a
+                  <ScrollLink
                     className="nav-link"
-                    href="about.html"
-                    style={{ color: "#BD8F24" }}
+                    to="about"
+                    smooth={true}
+                    duration={500}
+                    style={{ color: "#BD8F24", cursor: "pointer" }}
                   >
                     About
-                  </a>
+                  </ScrollLink>
                 </li>
-
                 <li className="nav-item">
-                  <a
+                  <ScrollLink
                     className="nav-link"
-                    href="menu.html"
-                    style={{ color: "#BD8F24" }}
+                    to="services"
+                    smooth={true}
+                    duration={500}
+                    style={{ color: "#BD8F24", cursor: "pointer" }}
                   >
                     Events
-                  </a>
+                  </ScrollLink>
                 </li>
-
                 <li className="nav-item">
-                  <a
+                  <ScrollLink
                     className="nav-link"
-                    href="news.html"
-                    style={{ color: "#BD8F24" }}
+                    to="updates"
+                    smooth={true}
+                    duration={500}
+                    style={{ color: "#BD8F24", cursor: "pointer" }}
                   >
-                    Our Updates
-                  </a>
+                    Services
+                  </ScrollLink>
                 </li>
-
                 <li className="nav-item">
-                  <a
+                  <ScrollLink
                     className="nav-link"
-                    href="contact.html"
-                    style={{ color: "#BD8F24" }}
+                    to="contact"
+                    smooth={true}
+                    duration={500}
+                    style={{ color: "#BD8F24", cursor: "pointer" }}
                   >
                     Contact
-                  </a>
+                  </ScrollLink>
                 </li>
               </ul>
             </div>
 
             <div className="d-none d-lg-block">
-              <button
-                type="button"
-                className="custom-btn btn btn-danger"
-                data-bs-toggle="modal"
-                data-bs-target="#BookingModal"
+              <ScrollLink
+                className="nav-link"
+                to="contact"
+                smooth={true}
+                duration={500}
               >
-                Reservation
-              </button>
+                <button
+                  type="button"
+                  className="custom-btn btn btn-danger"
+                  data-bs-toggle="modal"
+                  data-bs-target="#BookingModal"
+                >
+                  Reservation
+                </button>
+              </ScrollLink>
             </div>
           </div>
         </nav>
