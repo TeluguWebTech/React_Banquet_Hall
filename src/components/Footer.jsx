@@ -3,7 +3,10 @@ import React from "react";
 const Footer = () => {
   return (
     <div>
-      <footer className="site-footer section-padding">
+      <footer
+        className="site-footer section-padding"
+        style={{ marginTop: "-100px" }}
+      >
         <div className="container">
           <div className="row">
             <div className="col-12">

@@ -22,15 +22,16 @@ const LandingPage = () => {
       <div id="services">
         <ServiceSection />
       </div>
-      <div id="events">
-        <EventSection />
-      </div>
       <div id="updates">
         <FeatureSection />
       </div>
       <div id="contact">
         <ContactSection />
       </div>
+      <div id="events">
+        <EventSection />
+      </div>
+
       <Footer />
     </div>
   );

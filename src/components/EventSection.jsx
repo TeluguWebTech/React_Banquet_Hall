@@ -10,7 +10,12 @@ const EventSection = () => {
 
   return (
     <div className="contact-form section-padding30 fix event">
-      <div>
+      <div
+        style={{
+          paddingTop: "-50px",
+          paddingBottom: "-50px",
+        }}
+      >
         {/* Brand Area */}
         <section className="brand-area section-padding-b">
           <div className="container">
